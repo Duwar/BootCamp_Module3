@@ -1,0 +1,27 @@
+
+.footer{
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top-right-radius: 99px;
+}
+
+.redes-sociales{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales i{
+    color: var(--white);
+    transition: .3s;
+}

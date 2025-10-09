@@ -1,7 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/salting-3');
+
+
 :root{
     --primary-color: #3498db;
     --secondary-color: #358935;
-    --light-background: #858585;
+    --light-background: #da9501;
+    --gradiente-primary: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+    --gradiente-secondary: linear-gradient(90deg, #358935 0%, #27ae60 100%);
+    --gradiente-light: linear-gradient(90deg, #858585 0%, #bdc3c7 100%);
+    --font-Primary:'Salting', sans-serif;
+    --white: #ffffff;
 }
 
 body{
@@ -9,5 +17,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-Primary);
+    font-size: 24px;
 }

@@ -1,0 +1,20 @@
+.logo{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Botones */
+
+.btn-registro{
+    padding: 2px 10px;
+    border-radius: 99px;
+    background: var(--gradiente-secondary);
+    color: white;
+}
+
+.btn-sesion{
+    padding: 2px 10px;
+    border-radius: 99px;
+    background: var(--gradiente-primary);
+    color: white;
+}
